@@ -1,0 +1,4 @@
+Sitemap: https://freecad.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: freecad.github.io
