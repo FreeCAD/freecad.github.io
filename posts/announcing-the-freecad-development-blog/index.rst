@@ -8,6 +8,11 @@
 .. description: 
 .. type: text
 
+.. figure:: /images/EmojiOne.png
+   :align: center
+
+   CC-BY-SA: `EmojiOne <https://www.emojione.com/>`_
+
 This is the debut post for the FreeCAD Development Blog, which provides a unique
 opportunity to bring the best FreeCAD development news and updates from the
 community of developers and users.
