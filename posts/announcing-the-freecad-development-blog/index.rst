@@ -30,7 +30,7 @@ subscribe for automatic updates.
 You can contribute posts by following a few steps. First, visit the `the repository
 for the blog source <https://github.com/freecad/freecad-blog>`_ and click the "Fork" button.
 You can read about `installing Nikola <https://getnikola.com/getting-started.html>`_ or (assuming you have pip)
-just run ``pip install --user nikola webassets``. Then you need to clone your forked repository
+just run ``pip install --user -U nikola webassets ws4py watchdog``. Then you need to clone your forked repository
 by running::
 
   $ git clone https://github.com/<your-username>/freecad-blog && cd freecad-blog
