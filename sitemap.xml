@@ -7,22 +7,30 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://freecad.github.io/</loc>
-  <lastmod>2018-03-04T19:06:00Z</lastmod>
+  <lastmod>2018-03-04T19:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://freecad.github.io/2018/</loc>
+  <lastmod>2018-03-04T19:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://freecad.github.io/archive.html</loc>
-  <lastmod>2018-03-04T19:06:00Z</lastmod>
+  <lastmod>2018-03-04T19:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://freecad.github.io/categories/</loc>
-  <lastmod>2018-03-04T19:06:00Z</lastmod>
+  <lastmod>2018-03-04T19:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://freecad.github.io/galleries/</loc>
-  <lastmod>2018-03-04T19:06:00Z</lastmod>
+  <lastmod>2018-03-04T19:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://freecad.github.io/listings/</loc>
-  <lastmod>2018-03-04T19:06:00Z</lastmod>
+  <lastmod>2018-03-04T19:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</loc>
+  <lastmod>2018-03-04T19:51:00Z</lastmod>
  </url>
 </urlset>
