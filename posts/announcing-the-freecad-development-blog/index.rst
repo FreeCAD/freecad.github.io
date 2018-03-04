@@ -17,8 +17,10 @@ intuitive command-line interface (see ``nikola help`` after installation)
 and consumes `reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`_ files.
 
 `Custom themes <https://themes.getnikola.com/>`_ are available, and standard CSS/JS
-customization is possible as well. Nikola supports :math:`\LaTeX` equation rendering and has
-many other possibilities.
+customization is possible as well. Nikola supports :math:`\LaTeX` equation rendering.
+It also has good multilingual support, key for FreeCAD's international community.
+Nikola also comes with RSS support out of the box, so readers of this site can
+subscribe for automatic updates.
 
 Authorship for the blog is possible by `installing Nikola <https://getnikola.com/getting-started.html>`_
 and then running::
