@@ -5,17 +5,15 @@
 <meta name="description" content="Announcements and community progress news in FreeCAD development.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FreeCAD Development Blog</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="assets/css/html4css1.css" rel="stylesheet" type="text/css">
-<link href="assets/css/nikola_rst.css" rel="stylesheet" type="text/css">
-<link href="assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
-<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://freecad.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+<link rel="icon" href="favicon-16.ico" sizes="16x16">
+<link rel="icon" href="favicon-32.ico" sizes="32x32">
+<link rel="icon" href="favicon-256.ico" sizes="256x256">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/announcing-the-freecad-development-blog/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -68,15 +66,51 @@
 
     
 <div class="postindex">
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/announcing-the-freecad-development-blog/" class="u-url">Announcing the FreeCAD Development Blog</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Kurt Kremitzki
+            </span></p>
+            <p class="dateline"><a href="posts/announcing-the-freecad-development-blog/" rel="bookmark"><time class="published dt-published" datetime="2018-03-04T19:09:59Z" title="2018-03-04 19:09">2018-03-04 19:09</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>This is the debut post for the FreeCAD Development Blog, which provides a unique
+opportunity to bring the best FreeCAD development news and updates from the
+community of developers and users.</p>
+<p>The blog uses the Python-based <a class="reference external" href="https://getnikola.com/">Nikola</a> which provides an
+intuitive command-line interface (see <tt class="docutils literal">nikola help</tt> after installation)
+and consumes <a class="reference external" href="http://www.sphinx-doc.org/en/stable/rest.html">reStructuredText</a> files.</p>
+<p><a class="reference external" href="https://themes.getnikola.com/">Custom themes</a> are available, and standard CSS/JS
+customization is possible as well. Nikola supports <span class="math">\(\LaTeX\)</span> equation rendering and has
+many other possibilities.</p>
+<p>Authorship for the blog is possible by <a class="reference external" href="https://getnikola.com/getting-started.html">installing Nikola</a>
+and then running:</p>
+<pre class="literal-block">
+$ git clone --recursive https://github.com/freecad/freecad-blog &amp;&amp; cd freecad-blog
+$ nikola auto -b # Install any dependencies mentioned in warnings
+$ nikola new_post # Follow the prompts and then edit posts/your_title.rst until satisfied
+$ git add posts/your_title.rst # Begin the pull request process...
+</pre>
+<p>... and then finishing by making a pull request with your new post at
+<a class="reference external" href="https://github.com/freecad/freecad-blog">the repository for the blog source</a>.
+Once the pull request is merged, anyone with write permission to the
+<a class="reference external" href="https://github.com/freecad/freecad.github.io">repository for built pages</a>
+can then use <tt class="docutils literal">nikola build &amp;&amp; nikola deploy</tt> to build and deploy the new post.</p>
+</div>
+    </div>
+    </article>
 </div>
 
 
 
 
 
-
-
-        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha256-SDRP1VVYu+tgAGKhddBSl5+ezofHKZeI+OzxakbIe/Y=" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
+        </script>
+</div>
         <!--End of body content-->
 
         <footer id="footer">
@@ -87,7 +121,7 @@
 </div>
 
 
-            <script src="assets/js/jquery.min.js"></script><script src="assets/js/bootstrap.min.js"></script><script src="assets/js/moment-with-locales.min.js"></script><script src="assets/js/fancydates.js"></script><script src="assets/js/jquery.colorbox-min.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+            <script src="assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->

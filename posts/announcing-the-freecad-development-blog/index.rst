@@ -2,7 +2,7 @@
 .. author: Kurt Kremitzki
 .. slug: announcing-the-freecad-development-blog
 .. date: 2018-03-04 19:09:59 UTC
-.. tags: 
+.. tags: mathjax
 .. category: 
 .. link: 
 .. description: 
@@ -17,7 +17,7 @@ intuitive command-line interface (see ``nikola help`` after installation)
 and consumes `reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`_ files.
 
 `Custom themes <https://themes.getnikola.com/>`_ are available, and standard CSS/JS
-customization is possible as well. Nikola supports LaTeX equation rendering and has
+customization is possible as well. Nikola supports :math:`\LaTeX` equation rendering and has
 many other possibilities.
 
 Authorship for the blog is possible by `installing Nikola <https://getnikola.com/getting-started.html>`_
