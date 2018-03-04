@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FreeCAD Development Blog</title><link>https://freecad.github.io/</link><description>Announcements and community progress news in FreeCAD development.</description><atom:link href="https://freecad.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:info@freecadweb.org"&gt;FreeCAD Community&lt;/a&gt; </copyright><lastBuildDate>Sun, 04 Mar 2018 20:26:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Announcing the FreeCAD Development Blog</title><link>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</link><dc:creator>Kurt Kremitzki</dc:creator><description>&lt;div&gt;&lt;div class="figure align-center"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FreeCAD Development Blog</title><link>https://freecad.github.io/</link><description>Announcements and community progress news in FreeCAD development.</description><atom:link href="https://freecad.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:info@freecadweb.org"&gt;FreeCAD Community&lt;/a&gt; </copyright><lastBuildDate>Sun, 04 Mar 2018 21:04:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Announcing the FreeCAD Development Blog</title><link>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</link><dc:creator>Kurt Kremitzki</dc:creator><description>&lt;div&gt;&lt;div class="figure align-center"&gt;
 &lt;img alt="/images/EmojiOne.png" src="https://freecad.github.io/images/EmojiOne.png"&gt;
 &lt;p class="caption"&gt;CC-BY-SA: &lt;a class="reference external" href="https://www.emojione.com/"&gt;EmojiOne&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -14,16 +14,19 @@ customization is possible as well. Nikola supports &lt;span class="math"&gt;\(\L
 It also has good multilingual support, key for FreeCAD's international community.
 Nikola also comes with RSS support out of the box, so readers of this site can
 subscribe for automatic updates.&lt;/p&gt;
-&lt;p&gt;Authorship for the blog is possible by &lt;a class="reference external" href="https://getnikola.com/getting-started.html"&gt;installing Nikola&lt;/a&gt;
-and then running:&lt;/p&gt;
+&lt;p&gt;You can contribute posts by following a few steps. First, visit the &lt;a class="reference external" href="https://github.com/freecad/freecad-blog"&gt;the repository
+for the blog source&lt;/a&gt; and click the "Fork" button.
+You can read about &lt;a class="reference external" href="https://getnikola.com/getting-started.html"&gt;installing Nikola&lt;/a&gt; or (assuming you have pip)
+just run &lt;tt class="docutils literal"&gt;pip install &lt;span class="pre"&gt;--user&lt;/span&gt; nikola webassets&lt;/tt&gt;. Then you need to clone your forked repository
+by running:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
-$ git clone --recursive https://github.com/freecad/freecad-blog &amp;amp;&amp;amp; cd freecad-blog
-$ nikola auto -b # Install any dependencies mentioned in warnings
+$ git clone https://github.com/&amp;lt;your-username&amp;gt;/freecad-blog &amp;amp;&amp;amp; cd freecad-blog
+$ nikola auto -b # Run autobuild and open an auto-refreshing browser window
 $ nikola new_post # Follow the prompts and then edit posts/your_title.rst until satisfied
 $ git add posts/your_title.rst # Begin the pull request process...
 &lt;/pre&gt;
-&lt;p&gt;... and then finishing by making a pull request with your new post at
-&lt;a class="reference external" href="https://github.com/freecad/freecad-blog"&gt;the repository for the blog source&lt;/a&gt;.
-Once the pull request is merged, anyone with write permission to the
+&lt;p&gt;... and then finishing by making a pull request on the main repository using the commits you've
+pushed to your fork.&lt;/p&gt;
+&lt;p&gt;Once the pull request is merged, anyone with write permission to the
 &lt;a class="reference external" href="https://github.com/freecad/freecad.github.io"&gt;repository for built pages&lt;/a&gt;
 can then use &lt;tt class="docutils literal"&gt;nikola build &amp;amp;&amp;amp; nikola deploy&lt;/tt&gt; to build and deploy the new post.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</guid><pubDate>Sun, 04 Mar 2018 19:09:59 GMT</pubDate></item></channel></rss>

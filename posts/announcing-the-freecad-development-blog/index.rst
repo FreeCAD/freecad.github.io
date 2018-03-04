@@ -27,16 +27,20 @@ It also has good multilingual support, key for FreeCAD's international community
 Nikola also comes with RSS support out of the box, so readers of this site can
 subscribe for automatic updates.
 
-Authorship for the blog is possible by `installing Nikola <https://getnikola.com/getting-started.html>`_
-and then running::
+You can contribute posts by following a few steps. First, visit the `the repository
+for the blog source <https://github.com/freecad/freecad-blog>`_ and click the "Fork" button.
+You can read about `installing Nikola <https://getnikola.com/getting-started.html>`_ or (assuming you have pip)
+just run ``pip install --user nikola webassets``. Then you need to clone your forked repository
+by running::
 
-  $ git clone --recursive https://github.com/freecad/freecad-blog && cd freecad-blog
-  $ nikola auto -b # Install any dependencies mentioned in warnings
+  $ git clone https://github.com/<your-username>/freecad-blog && cd freecad-blog
+  $ nikola auto -b # Run autobuild and open an auto-refreshing browser window
   $ nikola new_post # Follow the prompts and then edit posts/your_title.rst until satisfied
   $ git add posts/your_title.rst # Begin the pull request process...
 
-... and then finishing by making a pull request with your new post at 
-`the repository for the blog source <https://github.com/freecad/freecad-blog>`_. 
+... and then finishing by making a pull request on the main repository using the commits you've
+pushed to your fork.
+
 Once the pull request is merged, anyone with write permission to the 
 `repository for built pages <https://github.com/freecad/freecad.github.io>`_
 can then use ``nikola build && nikola deploy`` to build and deploy the new post.

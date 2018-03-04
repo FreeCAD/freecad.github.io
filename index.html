@@ -89,17 +89,20 @@ customization is possible as well. Nikola supports <span class="math">\(\LaTeX\)
 It also has good multilingual support, key for FreeCAD's international community.
 Nikola also comes with RSS support out of the box, so readers of this site can
 subscribe for automatic updates.</p>
-<p>Authorship for the blog is possible by <a class="reference external" href="https://getnikola.com/getting-started.html">installing Nikola</a>
-and then running:</p>
+<p>You can contribute posts by following a few steps. First, visit the <a class="reference external" href="https://github.com/freecad/freecad-blog">the repository
+for the blog source</a> and click the "Fork" button.
+You can read about <a class="reference external" href="https://getnikola.com/getting-started.html">installing Nikola</a> or (assuming you have pip)
+just run <tt class="docutils literal">pip install <span class="pre">--user</span> nikola webassets</tt>. Then you need to clone your forked repository
+by running:</p>
 <pre class="literal-block">
-$ git clone --recursive https://github.com/freecad/freecad-blog &amp;&amp; cd freecad-blog
-$ nikola auto -b # Install any dependencies mentioned in warnings
+$ git clone https://github.com/&lt;your-username&gt;/freecad-blog &amp;&amp; cd freecad-blog
+$ nikola auto -b # Run autobuild and open an auto-refreshing browser window
 $ nikola new_post # Follow the prompts and then edit posts/your_title.rst until satisfied
 $ git add posts/your_title.rst # Begin the pull request process...
 </pre>
-<p>... and then finishing by making a pull request with your new post at
-<a class="reference external" href="https://github.com/freecad/freecad-blog">the repository for the blog source</a>.
-Once the pull request is merged, anyone with write permission to the
+<p>... and then finishing by making a pull request on the main repository using the commits you've
+pushed to your fork.</p>
+<p>Once the pull request is merged, anyone with write permission to the
 <a class="reference external" href="https://github.com/freecad/freecad.github.io">repository for built pages</a>
 can then use <tt class="docutils literal">nikola build &amp;&amp; nikola deploy</tt> to build and deploy the new post.</p>
 </div>
