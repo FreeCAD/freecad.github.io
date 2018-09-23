@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FreeCAD Development Blog (Posts by Kurt Kremitzki)</title><link>https://freecad.github.io/</link><description></description><atom:link href="https://freecad.github.io/authors/kurt-kremitzki.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:info@freecadweb.org"&gt;FreeCAD Community&lt;/a&gt; </copyright><lastBuildDate>Sun, 23 Sep 2018 11:22:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Announcing the FreeCAD Development Blog</title><link>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</link><dc:creator>Kurt Kremitzki</dc:creator><description>&lt;div&gt;&lt;div class="figure align-center"&gt;
+&lt;img alt="/images/EmojiOne.png" src="https://freecad.github.io/images/EmojiOne.png"&gt;
+&lt;p class="caption"&gt;CC-BY-SA: &lt;a class="reference external" href="https://www.emojione.com/"&gt;EmojiOne&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This is the debut post for the FreeCAD Development Blog, which provides a unique
+opportunity to bring the best FreeCAD development news and updates from the
+community of developers and users.&lt;/p&gt;
+&lt;p&gt;The blog uses the Python-based &lt;a class="reference external" href="https://getnikola.com/"&gt;Nikola&lt;/a&gt; which provides an
+intuitive command-line interface (see &lt;tt class="docutils literal"&gt;nikola help&lt;/tt&gt; after installation)
+and consumes &lt;a class="reference external" href="http://www.sphinx-doc.org/en/stable/rest.html"&gt;reStructuredText&lt;/a&gt; files.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://themes.getnikola.com/"&gt;Custom themes&lt;/a&gt; are available, and standard CSS/JS
+customization is possible as well. Nikola supports &lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt; equation rendering.
+It also has good multilingual support, key for FreeCAD's international community.
+Nikola also comes with RSS support out of the box, so readers of this site can
+subscribe for automatic updates.&lt;/p&gt;
+&lt;p&gt;You can contribute posts by following a few steps. First, visit the &lt;a class="reference external" href="https://github.com/freecad/freecad-blog"&gt;the repository
+for the blog source&lt;/a&gt; and click the "Fork" button.
+You can read about &lt;a class="reference external" href="https://getnikola.com/getting-started.html"&gt;installing Nikola&lt;/a&gt; or (assuming you have pip)
+just run &lt;tt class="docutils literal"&gt;sudo apt install &lt;span class="pre"&gt;python3-pip&lt;/span&gt; &amp;amp;&amp;amp; pip3 install &lt;span class="pre"&gt;--user&lt;/span&gt; &lt;span class="pre"&gt;-U&lt;/span&gt; nikola webassets ws4py watchdog&lt;/tt&gt;. Then you need to clone your forked repository
+by running:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ git clone https://github.com/&amp;lt;your-username&amp;gt;/freecad-blog &amp;amp;&amp;amp; cd freecad-blog
+$ nikola auto -b # Run autobuild and open an auto-refreshing browser window
+$ nikola new_post # Follow the prompts and then edit posts/your_title.rst until satisfied
+$ git add posts/your_title.rst # Begin the pull request process...
+&lt;/pre&gt;
+&lt;p&gt;... and then finishing by making a pull request on the main repository using the commits you've
+pushed to your fork.&lt;/p&gt;
+&lt;p&gt;Once the pull request is merged, anyone with write permission to the
+&lt;a class="reference external" href="https://github.com/freecad/freecad.github.io"&gt;repository for built pages&lt;/a&gt;
+can then use &lt;tt class="docutils literal"&gt;nikola build &amp;amp;&amp;amp; nikola deploy&lt;/tt&gt; to build and deploy the new post.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</guid><pubDate>Sun, 04 Mar 2018 19:09:59 GMT</pubDate></item></channel></rss>

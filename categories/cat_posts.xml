@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FreeCAD Development Blog (Posts about posts)</title><link>https://freecad.github.io/</link><description></description><atom:link href="https://freecad.github.io/categories/cat_posts.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:info@freecadweb.org"&gt;FreeCAD Community&lt;/a&gt; </copyright><lastBuildDate>Sun, 23 Sep 2018 11:22:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>09-07-2018-Summary-of-FreeCAD-Development-so-far</title><link>https://freecad.github.io/posts/09-07-2018-Summary/</link><dc:creator>FreeCAD Community</dc:creator><description>&lt;div&gt;&lt;p&gt;Greetings to all FreeCADers, this post is created by a FreeCAD volunteer to keep the community up to date about how 0.18 development is progressing. Since FreeCAD has a pretty long release cycle (the team has decided on a yearly cycle)
+this blog then will come in handy for folks that are really wanting to use the vibrant and prolific bleeding-edge of FreeCAD (AKA 'HEAD' or the master branch) where many bugs are being removed (Hopefully! :wink:) and new features being woven in for testing and refinement.&lt;/p&gt;
+&lt;p&gt;It is the intention that there will be a post at the end of each month of FreeCAD development updates. Though that may seem a little ambitious, it may not be far from reality. For example, one of the core developers, Yorik Van Havre, creates a blog post on his &lt;a class="reference external" href="http://yorik.uncreated.net/guestblog.php?tag=freecad"&gt;website&lt;/a&gt; for his supporters every month with an update regarding his monthly FreeCAD hacking activities. So at the very least we'll figure out a way to link to his blog posts.&lt;/p&gt;
+&lt;p&gt;The main goal of the 0.18dev cycle is to iron out all Python3 and Qt5 incompatibilities.&lt;/p&gt;
+&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Tracking Python3 and Qt5 compatibility is ongoing. Ways to track progress: &lt;a class="reference external" href="https://forum.freecadweb.org/viewtopic.php?f=10&amp;amp;t=30624"&gt;Python3 and Qt5 Compatible Addon Workbenches (in preparation for 0.18)&lt;/a&gt;. Many fixes provided by @looooo and @wmayer and others.&lt;/li&gt;
+&lt;li&gt;An upgrade to the Start Page Workbench was &lt;a class="reference external" href="https://github.com/FreeCAD/FreeCAD/pull/1617"&gt;merged&lt;/a&gt;. The UI has been modernized and updated with a Notepad that persists between FreeCAD sessions.&lt;/li&gt;
+&lt;li&gt;Arch Stair was improved see &lt;a class="reference external" href="https://forum.freecadweb.org/viewtopic.php?f=23&amp;amp;t=29358"&gt;FreeCAD forum thread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Assembly3 port continues to receive a lot of attention and care for &lt;a class="reference external" href="https://github.com/realthunder"&gt;@realthunder&lt;/a&gt; and a lot of interest from the rest of the FreeCAD community. Progress of As3 can be followed on the &lt;a class="reference external" href="https://github.com/realthunder/FreeCAD_assembly3/"&gt;git repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Several Sketcher Solver refinements made it in to master, thanks to &lt;a class="reference external" href="https://github.com/abdullahtahiriyo"&gt;@abdullahtahiriyo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Workbenches added to FreeCAD Addon Manager: &lt;a class="reference external" href="https://github.com/caceres/SlopedPlanesMacro"&gt;SlopedPlanes&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/furti/FreeCAD-Lithophane/"&gt;Lithopane&lt;/a&gt;, and &lt;a class="reference external" href="https://github.com/FredsFactory/FreeCAD_AirPlaneDesign/"&gt;AirPlaneDesign&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GSOC 2018 participant, @kkremitzki, completed his assignment of heroically maneuvering through the dependency hell that FreeCAD requires. Many upstream dependencies have been updated and are either pending or part of the upstream Debian package repositories which will make compiling FreeCAD more uniform across most *nix-based platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://freecad.github.io/posts/09-07-2018-Summary/</guid><pubDate>Fri, 07 Sep 2018 19:41:57 GMT</pubDate></item><item><title>Announcing the FreeCAD Development Blog</title><link>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</link><dc:creator>Kurt Kremitzki</dc:creator><description>&lt;div&gt;&lt;div class="figure align-center"&gt;
+&lt;img alt="/images/EmojiOne.png" src="https://freecad.github.io/images/EmojiOne.png"&gt;
+&lt;p class="caption"&gt;CC-BY-SA: &lt;a class="reference external" href="https://www.emojione.com/"&gt;EmojiOne&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This is the debut post for the FreeCAD Development Blog, which provides a unique
+opportunity to bring the best FreeCAD development news and updates from the
+community of developers and users.&lt;/p&gt;
+&lt;p&gt;The blog uses the Python-based &lt;a class="reference external" href="https://getnikola.com/"&gt;Nikola&lt;/a&gt; which provides an
+intuitive command-line interface (see &lt;tt class="docutils literal"&gt;nikola help&lt;/tt&gt; after installation)
+and consumes &lt;a class="reference external" href="http://www.sphinx-doc.org/en/stable/rest.html"&gt;reStructuredText&lt;/a&gt; files.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://themes.getnikola.com/"&gt;Custom themes&lt;/a&gt; are available, and standard CSS/JS
+customization is possible as well. Nikola supports &lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt; equation rendering.
+It also has good multilingual support, key for FreeCAD's international community.
+Nikola also comes with RSS support out of the box, so readers of this site can
+subscribe for automatic updates.&lt;/p&gt;
+&lt;p&gt;You can contribute posts by following a few steps. First, visit the &lt;a class="reference external" href="https://github.com/freecad/freecad-blog"&gt;the repository
+for the blog source&lt;/a&gt; and click the "Fork" button.
+You can read about &lt;a class="reference external" href="https://getnikola.com/getting-started.html"&gt;installing Nikola&lt;/a&gt; or (assuming you have pip)
+just run &lt;tt class="docutils literal"&gt;sudo apt install &lt;span class="pre"&gt;python3-pip&lt;/span&gt; &amp;amp;&amp;amp; pip3 install &lt;span class="pre"&gt;--user&lt;/span&gt; &lt;span class="pre"&gt;-U&lt;/span&gt; nikola webassets ws4py watchdog&lt;/tt&gt;. Then you need to clone your forked repository
+by running:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ git clone https://github.com/&amp;lt;your-username&amp;gt;/freecad-blog &amp;amp;&amp;amp; cd freecad-blog
+$ nikola auto -b # Run autobuild and open an auto-refreshing browser window
+$ nikola new_post # Follow the prompts and then edit posts/your_title.rst until satisfied
+$ git add posts/your_title.rst # Begin the pull request process...
+&lt;/pre&gt;
+&lt;p&gt;... and then finishing by making a pull request on the main repository using the commits you've
+pushed to your fork.&lt;/p&gt;
+&lt;p&gt;Once the pull request is merged, anyone with write permission to the
+&lt;a class="reference external" href="https://github.com/freecad/freecad.github.io"&gt;repository for built pages&lt;/a&gt;
+can then use &lt;tt class="docutils literal"&gt;nikola build &amp;amp;&amp;amp; nikola deploy&lt;/tt&gt; to build and deploy the new post.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>https://freecad.github.io/posts/announcing-the-freecad-development-blog/</guid><pubDate>Sun, 04 Mar 2018 19:09:59 GMT</pubDate></item></channel></rss>
