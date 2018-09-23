@@ -1,4 +1,4 @@
-.. title: 09-07-2018-Summary-of-FreeCAD-Development-so-far
+.. title: Summary of FreeCAD Development so far
 .. slug: 09-07-2018-Summary
 .. date: 2018-09-07 19:41:57 UTC
 .. tags:
