@@ -13,7 +13,7 @@
 <link rel="icon" href="favicon-16.ico" sizes="16x16">
 <link rel="icon" href="favicon-32.ico" sizes="32x32">
 <link rel="icon" href="favicon-256.ico" sizes="256x256">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/09-07-2018-Summary/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/introduction-to-freecad-development/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -66,7 +66,76 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/09-07-2018-Summary/" class="u-url">Summary of FreeCAD Development so far</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/introduction-to-freecad-development/" class="u-url">Introduction to FreeCAD development</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/freecad-community/">FreeCAD Community</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/introduction-to-freecad-development/" rel="bookmark">
+            <time class="published dt-published" datetime="2018-11-10T21:11:10Z" itemprop="datePublished" title="2018-11-10 21:11">2018-11-10 21:11</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Have you ever wanted to contribute back to the project? Let us help you getting started!</p>
+<p>If you want to contribute, write a thread about what you want to do in the developers corner and we will do our best to get you going. This post provides a brief overview of our workflow.</p>
+<div class="section" id="forum">
+<h2>Forum</h2>
+<p>The FreeCAD forum: <a class="reference external" href="https://forum.freecadweb.org/">https://forum.freecadweb.org/</a> is the primary place for communication between FreeCAD users as well as developers.
+This should be the first place to search for answers if you have any questions.</p>
+<p><strong>Note:</strong> When you create a forum account, it might take a while before it's activated as the process is currently manual. This is done to limit spamming.</p>
+</div>
+<div class="section" id="issues-tickets">
+<h2>Issues/Tickets</h2>
+<div class="line-block">
+<div class="line">FreeCAD uses <a class="reference external" href="https://mantisbt.org/">MantisBT</a> as its tracker for bug reporting and feature requests.</div>
+<div class="line">The FreeCAD tracker address is <a class="reference external" href="https://freecadweb.org/tracker/">https://freecadweb.org/tracker/</a>
+</div>
+<div class="line">
+<strong>Note:</strong> In order to create issues you will have to create an separate MantisBT account.</div>
+</div>
+<p>As we are getting a lot of reports please follow the rules before creating a new issue</p>
+<ol class="arabic simple">
+<li>Make sure you're using the most updated stable or development versions of FreeCAD.</li>
+<li>
+<strong>PLEASE PLEASE PLEASE</strong> post to FreeCAD forum to verify the issue.</li>
+<li>Only after community vetting, open a ticket and link said thread to ticket and vice-a-versa.</li>
+<li>Post your <strong>Help&gt;About FreeCAD&gt;Copy to clipboard</strong> version info in to forum thread and ticket.</li>
+<li>Post a Step-By-Step explanation on how to recreate the issue.</li>
+<li>If possible, upload an example file to demonstrate problem.</li>
+<li>If there is a crash involved, please consider <a class="reference external" href="https://freecadweb.org/wiki/Debugging">Debugging</a> and attaching the traceback to the ticket.</li>
+</ol>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation</h2>
+<div class="line-block">
+<div class="line">FreeCAD uses <a class="reference external" href="https://mediawiki.org">MediaWiki</a> for its documentation. To be able to modify the wiki, you must <a class="reference external" href="https://forum.freecadweb.org/viewtopic.php?f=21&amp;t=6830">request access from the FreeCAD wiki admins</a>.</div>
+<div class="line">
+<strong>Note:</strong> To get an Wiki account we require you to have a forum account with at least 1 post.</div>
+<div class="line">Before you start changing things in the wiki please read the <a class="reference external" href="https://www.freecadweb.org/wiki/WikiPages">WikiPages</a> guidelines,</div>
+<div class="line">There are several rules on how to write on the wiki to keep it organized, high quality, translated and up to date. It's our practice to discuss the additions/changes one wants to make in the <a class="reference external" href="https://forum.freecadweb.org/viewforum.php?f=21">FC wiki subforum</a> prior to posting.</div>
+</div>
+</div>
+<div class="section" id="code">
+<h2>Code</h2>
+<p>The FreeCAD codebase is mostly C++ and Python, we are currently migrating to Python3, new contributions based on Python2.X are frowned upon.
+The git repo is hosted at <a class="reference external" href="https://github.com/FreeCAD/FreeCAD">https://github.com/FreeCAD/FreeCAD</a></p>
+</div>
+<div class="section" id="development">
+<h2>Development</h2>
+<p>If you're interested developing for FreeCAD please look into</p>
+<ol class="arabic simple">
+<li>Read the <a class="reference external" href="https://www.freecadweb.org/wiki/index.php?title=The_FreeCAD_source_code">Source code wiki page</a> and check the <a class="reference external" href="https://www.freecadweb.org/api/annotated.html">API reference</a> .</li>
+<li>Creating your own workbench (See <a class="reference external" href="https://www.freecadweb.org/wiki/Workbench_creation">Workbench Creation</a> , <a class="reference external" href="https://www.freecadweb.org/wiki/Module_Creation">Module Creation</a> , <a class="reference external" href="https://github.com/FreeCAD/Workbench-Starterkit">Workbench Starterkit</a> )</li>
+<li>Modifying an existing workbench (View source code of any external workbench at <a class="reference external" href="https://github.com/FreeCAD/FreeCAD-addons">FreeCAD-Addons Repo</a> )</li>
+<li>Creating your own macro (Read more about <a class="reference external" href="https://www.freecadweb.org/wiki/Macros">FreeCAD Macros</a> and the <a class="reference external" href="https://github.com/FreeCAD/FreeCAD-macros">FreeCAD Macros Repo</a> )</li>
+<li>Building FreeCAD and writing C++ code (See <a class="reference external" href="https://github.com/FreeCAD/FreeCAD#compiling">Compiling instructions</a> )</li>
+</ol>
+</div>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/09-07-2018-Summary/" class="u-url">Summary of FreeCAD Development so far</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="authors/freecad-community/">FreeCAD Community</a>
@@ -159,7 +228,7 @@ can then use <tt class="docutils literal">nikola build &amp;&amp; nikola deploy<
         <!--End of body content-->
 
         <footer id="footer">
-            Contents © 2018         <a href="mailto:info@freecadweb.org">FreeCAD Community</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            Contents © 2019         <a href="mailto:info@freecadweb.org">FreeCAD Community</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
         </footer>
 </div>
